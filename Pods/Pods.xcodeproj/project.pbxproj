@@ -1,0 +1,1264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0322AE7C7462E52BC171E049DA92022E /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D00478C03FB02D1834E48B88AB0EFC /* CVCalendarDayView.swift */; };
+		07ADAAD962A47E6153FB2743386DC9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1E47C703361C484206555D54BB363FC8 /* Pods-CoachVideos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F3EA03B4A900C7C1F829AED1672B02 /* Pods-CoachVideos-dummy.m */; };
+		1F5D23A64CF405A7E27E703991D06DBE /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51E4389665B2794CB6152D7F2D6385 /* CVCalendarMonthContentViewController.swift */; };
+		219A27350F2C9BC896193810BBB142A3 /* Pods-CoachVideosTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F415BAF4A8A8F42200A0576A1130DCA1 /* Pods-CoachVideosTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE9B52BEAAE87DDC01D1D3331348CCC /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B451569B0747172A23350835D9F6865 /* CVAuxiliaryView.swift */; };
+		2FA521C41374B41D883F61D16FD75932 /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A072BBAA1EA7ACDF4A862F480BE6184 /* CVCalendarViewAnimator.swift */; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3187AD214B8A128053AEB1396C64FB47 /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E87697D9A2C45FE8B60E7D90FACED7D /* CVCalendarWeekday.swift */; };
+		37DB37246156B4060755A627B52A619E /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B52899B7EF2F9D331F94B0F4A22BF9 /* CVCalendarTouchController.swift */; };
+		3AA14958B5E6E03A96F232492EE8C27E /* CVStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8ACA0BA52B34999E464906ED39D8 /* CVStatus.swift */; };
+		472F8C4F8FECD05D59FC63A7B417CA9B /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731DE3D1F91FD9CD3AEC220C903CF612 /* CVCalendarDayViewControlCoordinator.swift */; };
+		482EBA56488C9532C984C87C00F8F22E /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D7D43FEFF23E4A8D509BB61652B95 /* CVWeekdaySymbolType.swift */; };
+		4B02C653A7A10BDFD0F1578C30608E01 /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A5C88BF5E88B6B35A6ABA3074EB7D7 /* CVCalendarViewAppearanceDelegate.swift */; };
+		4DDF5D1A0800108955F0BEBF7FB90E39 /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4F8BCF02E9DBD9C3FDD3578BFB2 /* CVRange.swift */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 08862472CAE351BA25664382AE11C382 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D98447F73FB2ED259ABBD03B5539316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5E861FE2E332746C71EEBD6B87FA8645 /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F56A101C5D99BC494A4C69F80BF18C /* CVSelectionType.swift */; };
+		6091583F819C7F554B8A7CF32E24E48B /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19751777CF658913B5CB1D4CDD05A4 /* CVCalendarView.swift */; };
+		618E66A5A98C5E7F029B2215CF5B2FA1 /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC624CFB7DA3228FE08F5D8B002E398 /* CVCalendarContentViewController.swift */; };
+		6EF53A65E101500A228FD98A4583A17C /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C5CDFE6C128A33B4D1DFFAD7076A0 /* CVDate.swift */; };
+		759B73DEE436A1747B82091C96AA961A /* CVCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE04A4529AC4E76F7254C7E29BE104 /* CVCalendar-dummy.m */; };
+		75C5A1D90F6B11EEA116F7E37B8489A4 /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3049EA8F77F32A013B60109E2F0AC31 /* CVCalendarViewAnimatorDelegate.swift */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77461A934EE907D6D279A37566B529E3 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8884948626DD0666882E6FAD9643262B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		927C2DA86FF68008764A100588179345 /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA8C787D3670958B78C24D170DF535 /* CVCalendarWeekContentViewController.swift */; };
+		96916A8003570201DCD0E76E4FB137E3 /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA3BC41D03C5CCD0A403B7E25CC82D /* CVCalendarViewPresentationMode.swift */; };
+		9CE9189B3E4F8D15C3C6A216C6CFEADF /* CVCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C615A4B5B9C130CAA15D318C172C6BB6 /* CVCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D696481381FF9AE92159242274115EB /* Pods-CoachVideos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EBCE21D054E999C60D66D9CC8143D5 /* Pods-CoachVideos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9E8E248687AC537EE32C6542C62C1A /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761168105D435E57E8657DA6D799C7E3 /* CVShape.swift */; };
+		A03312DB6EBBFE6C6CDA2DBE1C5C797E /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415780B9A95C524040CD6B170DF4A3B6 /* CVCalendarMonthView.swift */; };
+		A324E434E5816AD7A6A81840A3B4B485 /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277505BB9029AD8466C5E2F56C35BF92 /* CVCalendarViewAppearance.swift */; };
+		AA9B3EF50E5BEC5125DE794156B78F4B /* CVPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A766EEA5CBBFE88D5B71554F6A89624 /* CVPresent.swift */; };
+		B2255A9A95526D32268D98822459FCF3 /* Pods-CoachVideosUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 162066E8CD96B0E0A891937A09FCECAE /* Pods-CoachVideosUITests-dummy.m */; };
+		B4D0B8D46C970FE3626AFBAC8A314E5F /* Pods-CoachVideosUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC063865A89D6356DFEAC0C8B7574A3 /* Pods-CoachVideosUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B753E1B35D3CCDBAC6568C879A5E85A9 /* Pods-CoachVideosTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D1DFDDA1BC688BE31906DA9C8183E /* Pods-CoachVideosTests-dummy.m */; };
+		BF9E1BD4685A479CE551145294B4D510 /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB876F0D663F5C04390B8D4C5D18BB6 /* CVCalendarManager.swift */; };
+		C990122E1A5B4C93AEEC3871B0C4B7BA /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298C0488AEB340CD7DA0948A5009356 /* CVCalendarMenuViewDelegate.swift */; };
+		D418639C21B002580BAB5D8CCEBB61B7 /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2135AB30AD4401FF9AC89178CBA4C7C9 /* CVCalendarWeekView.swift */; };
+		DACA772A4DD7003F779609A1A9195323 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8F0E18CA87CE81CE33C2827AA87B93 /* CVScrollDirection.swift */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EF5390028E7B9F2A89B7DA8A166DF1 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDD3AF7B2B9A8451D4478B67A2598108 /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AECF293C505A42A016FB5A863C47A32 /* CVCalendarMenuView.swift */; };
+		E096D06B9EA504CB91B4067A3B746B18 /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7272B96A666DA9217E33CE8EAC8F2B68 /* CVSet.swift */; };
+		E11FAF75053E4CA9B59DAB23BA490034 /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCC980983E5765DA6C03A0C5114603 /* CVCalendarViewDelegate.swift */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE97304CB48AD2323B53B1E5D39CD98 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7D2416E70B3AA91EB5302D26C677D2 /* GoogleToolboxForMac-dummy.m */; };
+		FE1B780A47EC6B1E074E594DCEBA6395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B24E7275E0BC8628D29BDC73712310D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EF0A874A01FFC4D77FBAEED4802A12;
+			remoteInfo = CVCalendar;
+		};
+		CE9666362D4F841F61FD0F0F343AE345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011DB917B83CA7D958CFA446B2C4B6A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030D05B3B50A1A8725EA3B361D5F9181 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DF27EF1819EE36E50681914EB9576E /* Pods-CoachVideos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachVideos.debug.xcconfig"; sourceTree = "<group>"; };
+		08862472CAE351BA25664382AE11C382 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		0B694D1A187CAF9C91AB5A7120C2FEF2 /* Pods-CoachVideosUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoachVideosUITests-resources.sh"; sourceTree = "<group>"; };
+		0F3F765467ED7F2F7CEB5ABA37272B2A /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		0FC624CFB7DA3228FE08F5D8B002E398 /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentViewController.swift; path = CVCalendar/CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		162066E8CD96B0E0A891937A09FCECAE /* Pods-CoachVideosUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoachVideosUITests-dummy.m"; sourceTree = "<group>"; };
+		1A766EEA5CBBFE88D5B71554F6A89624 /* CVPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVPresent.swift; path = CVCalendar/CVPresent.swift; sourceTree = "<group>"; };
+		2135AB30AD4401FF9AC89178CBA4C7C9 /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekView.swift; path = CVCalendar/CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		277505BB9029AD8466C5E2F56C35BF92 /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearance.swift; path = CVCalendar/CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		2D1C0B14EB86AE32F0CD042377574D07 /* Pods-CoachVideos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachVideos.release.xcconfig"; sourceTree = "<group>"; };
+		2E3D7D43FEFF23E4A8D509BB61652B95 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVWeekdaySymbolType.swift; path = CVCalendar/CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		32D9165272BFC649366386BB30122DD3 /* CVCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVCalendar.xcconfig; sourceTree = "<group>"; };
+		33252258113E76B590A521177FE41C28 /* Pods-CoachVideosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachVideosTests.release.xcconfig"; sourceTree = "<group>"; };
+		37B52899B7EF2F9D331F94B0F4A22BF9 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarTouchController.swift; path = CVCalendar/CVCalendarTouchController.swift; sourceTree = "<group>"; };
+		393E0A5BBBD7C6DD92B12CDDD110DAD7 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		3D5D1DFDDA1BC688BE31906DA9C8183E /* Pods-CoachVideosTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoachVideosTests-dummy.m"; sourceTree = "<group>"; };
+		3EECA9245C984FC063A010E64BEBBD8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401EB4F8BCF02E9DBD9C3FDD3578BFB2 /* CVRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVRange.swift; path = CVCalendar/CVRange.swift; sourceTree = "<group>"; };
+		415780B9A95C524040CD6B170DF4A3B6 /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthView.swift; path = CVCalendar/CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		4F2957F30D4137FB3D5325E65CD0E907 /* Pods_CoachVideos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoachVideos.framework; path = "Pods-CoachVideos.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F3EA03B4A900C7C1F829AED1672B02 /* Pods-CoachVideos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoachVideos-dummy.m"; sourceTree = "<group>"; };
+		51A92661D254E9D0D95FF7B05B04FB63 /* Pods-CoachVideosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachVideosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		541E6C7F04D5041E4920653D3F739FED /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		54EA3BC41D03C5CCD0A403B7E25CC82D /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewPresentationMode.swift; path = CVCalendar/CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		5A7D2416E70B3AA91EB5302D26C677D2 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		5BE55FE0556C6F1F8F7A3AA013C1E00C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E87697D9A2C45FE8B60E7D90FACED7D /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekday.swift; path = CVCalendar/CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		615D97CE67535F77F919FAB02E36F3D9 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		6AECF293C505A42A016FB5A863C47A32 /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuView.swift; path = CVCalendar/CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		6C8F0E18CA87CE81CE33C2827AA87B93 /* CVScrollDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVScrollDirection.swift; path = CVCalendar/CVScrollDirection.swift; sourceTree = "<group>"; };
+		726F1BB7417D5D5D4C735A3D41A81078 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7272B96A666DA9217E33CE8EAC8F2B68 /* CVSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSet.swift; path = CVCalendar/CVSet.swift; sourceTree = "<group>"; };
+		731DE3D1F91FD9CD3AEC220C903CF612 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayViewControlCoordinator.swift; path = CVCalendar/CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		757AD753153C41540FEE5A2EC1ABD791 /* Pods-CoachVideosUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachVideosUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		761168105D435E57E8657DA6D799C7E3 /* CVShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVShape.swift; path = CVCalendar/CVShape.swift; sourceTree = "<group>"; };
+		77461A934EE907D6D279A37566B529E3 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		78CBC598310EAD248626891A660E8211 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		7B19751777CF658913B5CB1D4CDD05A4 /* CVCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarView.swift; path = CVCalendar/CVCalendarView.swift; sourceTree = "<group>"; };
+		7DFE04A4529AC4E76F7254C7E29BE104 /* CVCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVCalendar-dummy.m"; sourceTree = "<group>"; };
+		814F8ACA0BA52B34999E464906ED39D8 /* CVStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVStatus.swift; path = CVCalendar/CVStatus.swift; sourceTree = "<group>"; };
+		82CB0A26A2CAF991F3F195D30B6E69C5 /* Pods-CoachVideosUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoachVideosUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EB876F0D663F5C04390B8D4C5D18BB6 /* CVCalendarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarManager.swift; path = CVCalendar/CVCalendarManager.swift; sourceTree = "<group>"; };
+		8FE97304CB48AD2323B53B1E5D39CD98 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98CD1B557615B3B1C965B01301B67653 /* Pods-CoachVideosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachVideosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A072BBAA1EA7ACDF4A862F480BE6184 /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimator.swift; path = CVCalendar/CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		9B451569B0747172A23350835D9F6865 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVAuxiliaryView.swift; path = CVCalendar/CVAuxiliaryView.swift; sourceTree = "<group>"; };
+		9F1C5CDFE6C128A33B4D1DFFAD7076A0 /* CVDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVDate.swift; path = CVCalendar/CVDate.swift; sourceTree = "<group>"; };
+		A1D919BB373494EBC520C7873197FC30 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		A4171FF7109F48FBFD1D353DBBC38377 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52DB86CAA396E5C96600C784086AE75 /* Pods-CoachVideosTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachVideosTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9B88C7AE010C856CE7A038DC1B971FC /* CVCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-prefix.pch"; sourceTree = "<group>"; };
+		A9F3E652170B309F642C4FC5886A75CB /* CVCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CVCalendar.modulemap; sourceTree = "<group>"; };
+		AD4BA66C068184C1C6F0837873D828EF /* Pods-CoachVideosTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoachVideosTests-frameworks.sh"; sourceTree = "<group>"; };
+		ADFCC980983E5765DA6C03A0C5114603 /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewDelegate.swift; path = CVCalendar/CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		B254D31B476D2796242FDFFB1A34C05F /* Pods_CoachVideosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoachVideosUITests.framework; path = "Pods-CoachVideosUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E8417E28D383B46BCE5B8F4823A515 /* CVCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CVCalendar.framework; path = CVCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79D072BD63BD5FD9BECC94F358D07D1 /* Pods-CoachVideosTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoachVideosTests-resources.sh"; sourceTree = "<group>"; };
+		BA0DBA2D8D2F80ADB4325B921AF620C2 /* Pods-CoachVideosUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CoachVideosUITests.modulemap"; sourceTree = "<group>"; };
+		BFDEC78BBF3ED08EF496143DC8E068F8 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		C2DF755FB559A1FE718097B712A03FD7 /* Pods-CoachVideosTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CoachVideosTests.modulemap"; sourceTree = "<group>"; };
+		C615A4B5B9C130CAA15D318C172C6BB6 /* CVCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-umbrella.h"; sourceTree = "<group>"; };
+		C8DB702BB95205B000EF75ACED73C324 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE07A5C24EC051673D7E6C8C340801CD /* Pods-CoachVideos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachVideos-acknowledgements.plist"; sourceTree = "<group>"; };
+		D01B2D0EC83BA5BC524071EBA5CAFB4E /* Pods-CoachVideosTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoachVideosTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D09FC55D205462C1055DD265A914AA1D /* Pods-CoachVideos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoachVideos-resources.sh"; sourceTree = "<group>"; };
+		D105874467FFA234E1C49CC8441C7AA9 /* Pods-CoachVideos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoachVideos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1A5C88BF5E88B6B35A6ABA3074EB7D7 /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearanceDelegate.swift; path = CVCalendar/CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		D2AA8C787D3670958B78C24D170DF535 /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekContentViewController.swift; path = CVCalendar/CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		D3049EA8F77F32A013B60109E2F0AC31 /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimatorDelegate.swift; path = CVCalendar/CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		D5EBCE21D054E999C60D66D9CC8143D5 /* Pods-CoachVideos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoachVideos-umbrella.h"; sourceTree = "<group>"; };
+		DD26EFD9C1F1060D7CE367C4AC4BFD77 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		DDC26C1B1A227EB8415A65E9AEAE8E50 /* Pods-CoachVideos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoachVideos-frameworks.sh"; sourceTree = "<group>"; };
+		E298C0488AEB340CD7DA0948A5009356 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuViewDelegate.swift; path = CVCalendar/CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
+		E3B3B6DB08EA137040D4C441EB67649B /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		EC51E4389665B2794CB6152D7F2D6385 /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthContentViewController.swift; path = CVCalendar/CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
+		ECC063865A89D6356DFEAC0C8B7574A3 /* Pods-CoachVideosUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoachVideosUITests-umbrella.h"; sourceTree = "<group>"; };
+		F1D00478C03FB02D1834E48B88AB0EFC /* CVCalendarDayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayView.swift; path = CVCalendar/CVCalendarDayView.swift; sourceTree = "<group>"; };
+		F243C8256E1D5741D8AFCF433B97A664 /* Pods-CoachVideos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CoachVideos.modulemap"; sourceTree = "<group>"; };
+		F39C777B01D553643BA33FC56570AD5C /* Pods-CoachVideosUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoachVideosUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F415BAF4A8A8F42200A0576A1130DCA1 /* Pods-CoachVideosTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoachVideosTests-umbrella.h"; sourceTree = "<group>"; };
+		F51496247078FF46B04B420B1CFAD65A /* Pods-CoachVideosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachVideosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F56A101C5D99BC494A4C69F80BF18C /* CVSelectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSelectionType.swift; path = CVCalendar/CVSelectionType.swift; sourceTree = "<group>"; };
+		F6EF5390028E7B9F2A89B7DA8A166DF1 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		FA7788C8470BEB249946066EF5DF7E90 /* Pods_CoachVideosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoachVideosTests.framework; path = "Pods-CoachVideosTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A78FD9D1509C9AF8357AC7B9D365943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D98447F73FB2ED259ABBD03B5539316 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691CFC33C7FFBA7D40A53ABDF9026C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1B780A47EC6B1E074E594DCEBA6395 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D944E585208B4E8EC8235E0818A2192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ADAAD962A47E6153FB2743386DC9F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A2E02024BF3C5A0F7371558CB6282F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8884948626DD0666882E6FAD9643262B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1787F0508CBE0F1DA8D2D588A4DDF0A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEC78BBF3ED08EF496143DC8E068F8 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1E00059C7C07EC8C337AE42341C64D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				541E6C7F04D5041E4920653D3F739FED /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E9E99F490DE75327A67935CB47F7CC8 /* Pods-CoachVideosTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE55FE0556C6F1F8F7A3AA013C1E00C /* Info.plist */,
+				C2DF755FB559A1FE718097B712A03FD7 /* Pods-CoachVideosTests.modulemap */,
+				D01B2D0EC83BA5BC524071EBA5CAFB4E /* Pods-CoachVideosTests-acknowledgements.markdown */,
+				A52DB86CAA396E5C96600C784086AE75 /* Pods-CoachVideosTests-acknowledgements.plist */,
+				3D5D1DFDDA1BC688BE31906DA9C8183E /* Pods-CoachVideosTests-dummy.m */,
+				AD4BA66C068184C1C6F0837873D828EF /* Pods-CoachVideosTests-frameworks.sh */,
+				B79D072BD63BD5FD9BECC94F358D07D1 /* Pods-CoachVideosTests-resources.sh */,
+				F415BAF4A8A8F42200A0576A1130DCA1 /* Pods-CoachVideosTests-umbrella.h */,
+				98CD1B557615B3B1C965B01301B67653 /* Pods-CoachVideosTests.debug.xcconfig */,
+				33252258113E76B590A521177FE41C28 /* Pods-CoachVideosTests.release.xcconfig */,
+			);
+			name = "Pods-CoachVideosTests";
+			path = "Target Support Files/Pods-CoachVideosTests";
+			sourceTree = "<group>";
+		};
+		29D129CC3BD6FFDD5D870DD1672F748C /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				5306A689891B293D14FED31734FC72D7 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		2A8FBAFF7D5F11A79AAD4D288CE2FF89 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				1E00059C7C07EC8C337AE42341C64D22 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		460D455E47B21DB63C74C648C6C6F51D /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				81E0641EAF7E74B1F595A3A1D2DCB7EB /* Defines */,
+				CD96C87E1F8A6808CDE0DF18B90C3220 /* NSData+zlib */,
+				8C0A52A1389CA65329902F2078123800 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		5306A689891B293D14FED31734FC72D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78CBC598310EAD248626891A660E8211 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70DFED52BB4844387D864910DE879BE4 /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				9B451569B0747172A23350835D9F6865 /* CVAuxiliaryView.swift */,
+				0FC624CFB7DA3228FE08F5D8B002E398 /* CVCalendarContentViewController.swift */,
+				F1D00478C03FB02D1834E48B88AB0EFC /* CVCalendarDayView.swift */,
+				731DE3D1F91FD9CD3AEC220C903CF612 /* CVCalendarDayViewControlCoordinator.swift */,
+				8EB876F0D663F5C04390B8D4C5D18BB6 /* CVCalendarManager.swift */,
+				6AECF293C505A42A016FB5A863C47A32 /* CVCalendarMenuView.swift */,
+				E298C0488AEB340CD7DA0948A5009356 /* CVCalendarMenuViewDelegate.swift */,
+				EC51E4389665B2794CB6152D7F2D6385 /* CVCalendarMonthContentViewController.swift */,
+				415780B9A95C524040CD6B170DF4A3B6 /* CVCalendarMonthView.swift */,
+				37B52899B7EF2F9D331F94B0F4A22BF9 /* CVCalendarTouchController.swift */,
+				7B19751777CF658913B5CB1D4CDD05A4 /* CVCalendarView.swift */,
+				9A072BBAA1EA7ACDF4A862F480BE6184 /* CVCalendarViewAnimator.swift */,
+				D3049EA8F77F32A013B60109E2F0AC31 /* CVCalendarViewAnimatorDelegate.swift */,
+				277505BB9029AD8466C5E2F56C35BF92 /* CVCalendarViewAppearance.swift */,
+				D1A5C88BF5E88B6B35A6ABA3074EB7D7 /* CVCalendarViewAppearanceDelegate.swift */,
+				ADFCC980983E5765DA6C03A0C5114603 /* CVCalendarViewDelegate.swift */,
+				54EA3BC41D03C5CCD0A403B7E25CC82D /* CVCalendarViewPresentationMode.swift */,
+				D2AA8C787D3670958B78C24D170DF535 /* CVCalendarWeekContentViewController.swift */,
+				5E87697D9A2C45FE8B60E7D90FACED7D /* CVCalendarWeekday.swift */,
+				2135AB30AD4401FF9AC89178CBA4C7C9 /* CVCalendarWeekView.swift */,
+				9F1C5CDFE6C128A33B4D1DFFAD7076A0 /* CVDate.swift */,
+				1A766EEA5CBBFE88D5B71554F6A89624 /* CVPresent.swift */,
+				401EB4F8BCF02E9DBD9C3FDD3578BFB2 /* CVRange.swift */,
+				6C8F0E18CA87CE81CE33C2827AA87B93 /* CVScrollDirection.swift */,
+				F5F56A101C5D99BC494A4C69F80BF18C /* CVSelectionType.swift */,
+				7272B96A666DA9217E33CE8EAC8F2B68 /* CVSet.swift */,
+				761168105D435E57E8657DA6D799C7E3 /* CVShape.swift */,
+				814F8ACA0BA52B34999E464906ED39D8 /* CVStatus.swift */,
+				2E3D7D43FEFF23E4A8D509BB61652B95 /* CVWeekdaySymbolType.swift */,
+				903388D28BD9F6DE10FC5E63F74AE73B /* Support Files */,
+			);
+			name = CVCalendar;
+			path = CVCalendar;
+			sourceTree = "<group>";
+		};
+		72881CD0428D4E2452575D229DCE2ACE /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C5933FEFB4DD4411D827B3494496E9EA /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C47A3502B2C836B454F00D5745BF3143 /* Pods */,
+				D9643F71238CB578011CBFD2C32E6AEC /* Products */,
+				9E9F12CDD2AD754F4FB1F5A1672C2DA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81E0641EAF7E74B1F595A3A1D2DCB7EB /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				08862472CAE351BA25664382AE11C382 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		8BDA5B6FBDF4D7DE71F0DF1C4AA1783E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				393E0A5BBBD7C6DD92B12CDDD110DAD7 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C0A52A1389CA65329902F2078123800 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3B3B6DB08EA137040D4C441EB67649B /* GoogleToolboxForMac.modulemap */,
+				0F3F765467ED7F2F7CEB5ABA37272B2A /* GoogleToolboxForMac.xcconfig */,
+				5A7D2416E70B3AA91EB5302D26C677D2 /* GoogleToolboxForMac-dummy.m */,
+				615D97CE67535F77F919FAB02E36F3D9 /* GoogleToolboxForMac-prefix.pch */,
+				77461A934EE907D6D279A37566B529E3 /* GoogleToolboxForMac-umbrella.h */,
+				030D05B3B50A1A8725EA3B361D5F9181 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		903388D28BD9F6DE10FC5E63F74AE73B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F3E652170B309F642C4FC5886A75CB /* CVCalendar.modulemap */,
+				32D9165272BFC649366386BB30122DD3 /* CVCalendar.xcconfig */,
+				7DFE04A4529AC4E76F7254C7E29BE104 /* CVCalendar-dummy.m */,
+				A9B88C7AE010C856CE7A038DC1B971FC /* CVCalendar-prefix.pch */,
+				C615A4B5B9C130CAA15D318C172C6BB6 /* CVCalendar-umbrella.h */,
+				3EECA9245C984FC063A010E64BEBBD8A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CVCalendar";
+			sourceTree = "<group>";
+		};
+		9E67B24FA024E76A76A82BBF8816E216 /* Pods-CoachVideos */ = {
+			isa = PBXGroup;
+			children = (
+				011DB917B83CA7D958CFA446B2C4B6A3 /* Info.plist */,
+				F243C8256E1D5741D8AFCF433B97A664 /* Pods-CoachVideos.modulemap */,
+				D105874467FFA234E1C49CC8441C7AA9 /* Pods-CoachVideos-acknowledgements.markdown */,
+				CE07A5C24EC051673D7E6C8C340801CD /* Pods-CoachVideos-acknowledgements.plist */,
+				50F3EA03B4A900C7C1F829AED1672B02 /* Pods-CoachVideos-dummy.m */,
+				DDC26C1B1A227EB8415A65E9AEAE8E50 /* Pods-CoachVideos-frameworks.sh */,
+				D09FC55D205462C1055DD265A914AA1D /* Pods-CoachVideos-resources.sh */,
+				D5EBCE21D054E999C60D66D9CC8143D5 /* Pods-CoachVideos-umbrella.h */,
+				03DF27EF1819EE36E50681914EB9576E /* Pods-CoachVideos.debug.xcconfig */,
+				2D1C0B14EB86AE32F0CD042377574D07 /* Pods-CoachVideos.release.xcconfig */,
+			);
+			name = "Pods-CoachVideos";
+			path = "Target Support Files/Pods-CoachVideos";
+			sourceTree = "<group>";
+		};
+		9E9F12CDD2AD754F4FB1F5A1672C2DA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E67B24FA024E76A76A82BBF8816E216 /* Pods-CoachVideos */,
+				1E9E99F490DE75327A67935CB47F7CC8 /* Pods-CoachVideosTests */,
+				C1BAE8CE1A4D2F4AEC65C3C0D000918E /* Pods-CoachVideosUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD6D308B307CB6DC09E5978DABA5E59C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8DB702BB95205B000EF75ACED73C324 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B56A3C7CDE9B0AE0E64EBF3067D8AE1D /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				A1D919BB373494EBC520C7873197FC30 /* FIRInstanceID.h */,
+				AD6D308B307CB6DC09E5978DABA5E59C /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1BAE8CE1A4D2F4AEC65C3C0D000918E /* Pods-CoachVideosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4171FF7109F48FBFD1D353DBBC38377 /* Info.plist */,
+				BA0DBA2D8D2F80ADB4325B921AF620C2 /* Pods-CoachVideosUITests.modulemap */,
+				82CB0A26A2CAF991F3F195D30B6E69C5 /* Pods-CoachVideosUITests-acknowledgements.markdown */,
+				757AD753153C41540FEE5A2EC1ABD791 /* Pods-CoachVideosUITests-acknowledgements.plist */,
+				162066E8CD96B0E0A891937A09FCECAE /* Pods-CoachVideosUITests-dummy.m */,
+				F39C777B01D553643BA33FC56570AD5C /* Pods-CoachVideosUITests-frameworks.sh */,
+				0B694D1A187CAF9C91AB5A7120C2FEF2 /* Pods-CoachVideosUITests-resources.sh */,
+				ECC063865A89D6356DFEAC0C8B7574A3 /* Pods-CoachVideosUITests-umbrella.h */,
+				F51496247078FF46B04B420B1CFAD65A /* Pods-CoachVideosUITests.debug.xcconfig */,
+				51A92661D254E9D0D95FF7B05B04FB63 /* Pods-CoachVideosUITests.release.xcconfig */,
+			);
+			name = "Pods-CoachVideosUITests";
+			path = "Target Support Files/Pods-CoachVideosUITests";
+			sourceTree = "<group>";
+		};
+		C47A3502B2C836B454F00D5745BF3143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70DFED52BB4844387D864910DE879BE4 /* CVCalendar */,
+				E3680A9BBEA16806C167E437D9A570DB /* Firebase */,
+				29D129CC3BD6FFDD5D870DD1672F748C /* FirebaseAnalytics */,
+				2A8FBAFF7D5F11A79AAD4D288CE2FF89 /* FirebaseCore */,
+				B56A3C7CDE9B0AE0E64EBF3067D8AE1D /* FirebaseInstanceID */,
+				EF41E0A2B5BF419F54F449EAB03A33B5 /* GoogleInterchangeUtilities */,
+				72881CD0428D4E2452575D229DCE2ACE /* GoogleSymbolUtilities */,
+				460D455E47B21DB63C74C648C6C6F51D /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5933FEFB4DD4411D827B3494496E9EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD26EFD9C1F1060D7CE367C4AC4BFD77 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD96C87E1F8A6808CDE0DF18B90C3220 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				F6EF5390028E7B9F2A89B7DA8A166DF1 /* GTMNSData+zlib.h */,
+				8FE97304CB48AD2323B53B1E5D39CD98 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		D9643F71238CB578011CBFD2C32E6AEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4E8417E28D383B46BCE5B8F4823A515 /* CVCalendar.framework */,
+				726F1BB7417D5D5D4C735A3D41A81078 /* GoogleToolboxForMac.framework */,
+				4F2957F30D4137FB3D5325E65CD0E907 /* Pods_CoachVideos.framework */,
+				FA7788C8470BEB249946066EF5DF7E90 /* Pods_CoachVideosTests.framework */,
+				B254D31B476D2796242FDFFB1A34C05F /* Pods_CoachVideosUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3680A9BBEA16806C167E437D9A570DB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				1787F0508CBE0F1DA8D2D588A4DDF0A0 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		EF41E0A2B5BF419F54F449EAB03A33B5 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA5B6FBDF4D7DE71F0DF1C4AA1783E /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03D43FA5CD4EB47FC229B6C801C4E65F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219A27350F2C9BC896193810BBB142A3 /* Pods-CoachVideosTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E5612731D8015F1F611F65B134962F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE9189B3E4F8D15C3C6A216C6CFEADF /* CVCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B423EB05AFEBF5CC4A475E0861E8F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D696481381FF9AE92159242274115EB /* Pods-CoachVideos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF48A6859D7E2668E3BB7D99E7EEE84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D0B8D46C970FE3626AFBAC8A314E5F /* Pods-CoachVideosUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 726F1BB7417D5D5D4C735A3D41A81078 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		138E07C6A5ED7CF6D824A62465335399 /* Pods-CoachVideos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3A7EC57E5895B8174DD5C6F772C4D6 /* Build configuration list for PBXNativeTarget "Pods-CoachVideos" */;
+			buildPhases = (
+				A0DBCDFA7C6FCCC2F515B0C921ED7288 /* Sources */,
+				691CFC33C7FFBA7D40A53ABDF9026C62 /* Frameworks */,
+				36B423EB05AFEBF5CC4A475E0861E8F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636EE6F34D3E8BB015924D0BCC5FE685 /* PBXTargetDependency */,
+				DB9C3D7FC7185B12FE1E37D6F9E86F2B /* PBXTargetDependency */,
+			);
+			name = "Pods-CoachVideos";
+			productName = "Pods-CoachVideos";
+			productReference = 4F2957F30D4137FB3D5325E65CD0E907 /* Pods_CoachVideos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4496F7E8FEEC9972142C3891BB244426 /* Pods-CoachVideosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B6B9A40DA9CF9DFE881CCE6CD2E1E3 /* Build configuration list for PBXNativeTarget "Pods-CoachVideosTests" */;
+			buildPhases = (
+				A77DA7C930DD641CD8B51325641DEAEF /* Sources */,
+				C6A2E02024BF3C5A0F7371558CB6282F /* Frameworks */,
+				03D43FA5CD4EB47FC229B6C801C4E65F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CoachVideosTests";
+			productName = "Pods-CoachVideosTests";
+			productReference = FA7788C8470BEB249946066EF5DF7E90 /* Pods_CoachVideosTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2EF0A874A01FFC4D77FBAEED4802A12 /* CVCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A65704E9CFDF6E1E9E61A4B1217F72 /* Build configuration list for PBXNativeTarget "CVCalendar" */;
+			buildPhases = (
+				CB7BBC10EB21EC4F8DD14B8990DC41C4 /* Sources */,
+				4A78FD9D1509C9AF8357AC7B9D365943 /* Frameworks */,
+				08E5612731D8015F1F611F65B134962F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVCalendar;
+			productName = CVCalendar;
+			productReference = B4E8417E28D383B46BCE5B8F4823A515 /* CVCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCB621A88EB1496C25E28111A6B6C33E /* Pods-CoachVideosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A533098791DAE3FFB569D2484BADA5C2 /* Build configuration list for PBXNativeTarget "Pods-CoachVideosUITests" */;
+			buildPhases = (
+				4C4B45C4CC3C0170DF313D3B4245F34A /* Sources */,
+				8D944E585208B4E8EC8235E0818A2192 /* Frameworks */,
+				9CF48A6859D7E2668E3BB7D99E7EEE84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CoachVideosUITests";
+			productName = "Pods-CoachVideosUITests";
+			productReference = B254D31B476D2796242FDFFB1A34C05F /* Pods_CoachVideosUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9643F71238CB578011CBFD2C32E6AEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2EF0A874A01FFC4D77FBAEED4802A12 /* CVCalendar */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				138E07C6A5ED7CF6D824A62465335399 /* Pods-CoachVideos */,
+				4496F7E8FEEC9972142C3891BB244426 /* Pods-CoachVideosTests */,
+				FCB621A88EB1496C25E28111A6B6C33E /* Pods-CoachVideosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4B45C4CC3C0170DF313D3B4245F34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2255A9A95526D32268D98822459FCF3 /* Pods-CoachVideosUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DBCDFA7C6FCCC2F515B0C921ED7288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E47C703361C484206555D54BB363FC8 /* Pods-CoachVideos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77DA7C930DD641CD8B51325641DEAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B753E1B35D3CCDBAC6568C879A5E85A9 /* Pods-CoachVideosTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7BBC10EB21EC4F8DD14B8990DC41C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE9B52BEAAE87DDC01D1D3331348CCC /* CVAuxiliaryView.swift in Sources */,
+				759B73DEE436A1747B82091C96AA961A /* CVCalendar-dummy.m in Sources */,
+				618E66A5A98C5E7F029B2215CF5B2FA1 /* CVCalendarContentViewController.swift in Sources */,
+				0322AE7C7462E52BC171E049DA92022E /* CVCalendarDayView.swift in Sources */,
+				472F8C4F8FECD05D59FC63A7B417CA9B /* CVCalendarDayViewControlCoordinator.swift in Sources */,
+				BF9E1BD4685A479CE551145294B4D510 /* CVCalendarManager.swift in Sources */,
+				DDD3AF7B2B9A8451D4478B67A2598108 /* CVCalendarMenuView.swift in Sources */,
+				C990122E1A5B4C93AEEC3871B0C4B7BA /* CVCalendarMenuViewDelegate.swift in Sources */,
+				1F5D23A64CF405A7E27E703991D06DBE /* CVCalendarMonthContentViewController.swift in Sources */,
+				A03312DB6EBBFE6C6CDA2DBE1C5C797E /* CVCalendarMonthView.swift in Sources */,
+				37DB37246156B4060755A627B52A619E /* CVCalendarTouchController.swift in Sources */,
+				6091583F819C7F554B8A7CF32E24E48B /* CVCalendarView.swift in Sources */,
+				2FA521C41374B41D883F61D16FD75932 /* CVCalendarViewAnimator.swift in Sources */,
+				75C5A1D90F6B11EEA116F7E37B8489A4 /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				A324E434E5816AD7A6A81840A3B4B485 /* CVCalendarViewAppearance.swift in Sources */,
+				4B02C653A7A10BDFD0F1578C30608E01 /* CVCalendarViewAppearanceDelegate.swift in Sources */,
+				E11FAF75053E4CA9B59DAB23BA490034 /* CVCalendarViewDelegate.swift in Sources */,
+				96916A8003570201DCD0E76E4FB137E3 /* CVCalendarViewPresentationMode.swift in Sources */,
+				927C2DA86FF68008764A100588179345 /* CVCalendarWeekContentViewController.swift in Sources */,
+				3187AD214B8A128053AEB1396C64FB47 /* CVCalendarWeekday.swift in Sources */,
+				D418639C21B002580BAB5D8CCEBB61B7 /* CVCalendarWeekView.swift in Sources */,
+				6EF53A65E101500A228FD98A4583A17C /* CVDate.swift in Sources */,
+				AA9B3EF50E5BEC5125DE794156B78F4B /* CVPresent.swift in Sources */,
+				4DDF5D1A0800108955F0BEBF7FB90E39 /* CVRange.swift in Sources */,
+				DACA772A4DD7003F779609A1A9195323 /* CVScrollDirection.swift in Sources */,
+				5E861FE2E332746C71EEBD6B87FA8645 /* CVSelectionType.swift in Sources */,
+				E096D06B9EA504CB91B4067A3B746B18 /* CVSet.swift in Sources */,
+				9E9E8E248687AC537EE32C6542C62C1A /* CVShape.swift in Sources */,
+				3AA14958B5E6E03A96F232492EE8C27E /* CVStatus.swift in Sources */,
+				482EBA56488C9532C984C87C00F8F22E /* CVWeekdaySymbolType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		636EE6F34D3E8BB015924D0BCC5FE685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CVCalendar;
+			target = E2EF0A874A01FFC4D77FBAEED4802A12 /* CVCalendar */;
+			targetProxy = B24E7275E0BC8628D29BDC73712310D4 /* PBXContainerItemProxy */;
+		};
+		DB9C3D7FC7185B12FE1E37D6F9E86F2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = CE9666362D4F841F61FD0F0F343AE345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE8153F8160DDDE5EAED0155DDE8682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A92661D254E9D0D95FF7B05B04FB63 /* Pods-CoachVideosUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachVideosUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachVideosUITests/Pods-CoachVideosUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoachVideosUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11F16EE7E176A82775C3A5B28AC72E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D9165272BFC649366386BB30122DD3 /* CVCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A36B1D1DD4EE664F30246B1F58CAF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DF27EF1819EE36E50681914EB9576E /* Pods-CoachVideos.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachVideos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachVideos/Pods-CoachVideos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoachVideos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4662171F2F0F73522A0E903E2A4A31C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51496247078FF46B04B420B1CFAD65A /* Pods-CoachVideosUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachVideosUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachVideosUITests/Pods-CoachVideosUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoachVideosUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		958676F50ABDC03E5487786EC8C763F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1C0B14EB86AE32F0CD042377574D07 /* Pods-CoachVideos.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachVideos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachVideos/Pods-CoachVideos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoachVideos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B20756265A0913A4181337132DEADD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D9165272BFC649366386BB30122DD3 /* CVCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3F765467ED7F2F7CEB5ABA37272B2A /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D943F496D59F217EB1A688C56D2D75FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CD1B557615B3B1C965B01301B67653 /* Pods-CoachVideosTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachVideosTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachVideosTests/Pods-CoachVideosTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoachVideosTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB371171B810AA7D11E08F8A373F3FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33252258113E76B590A521177FE41C28 /* Pods-CoachVideosTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachVideosTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachVideosTests/Pods-CoachVideosTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoachVideosTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3F765467ED7F2F7CEB5ABA37272B2A /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3A7EC57E5895B8174DD5C6F772C4D6 /* Build configuration list for PBXNativeTarget "Pods-CoachVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A36B1D1DD4EE664F30246B1F58CAF43 /* Debug */,
+				958676F50ABDC03E5487786EC8C763F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A533098791DAE3FFB569D2484BADA5C2 /* Build configuration list for PBXNativeTarget "Pods-CoachVideosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4662171F2F0F73522A0E903E2A4A31C3 /* Debug */,
+				0DE8153F8160DDDE5EAED0155DDE8682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B6B9A40DA9CF9DFE881CCE6CD2E1E3 /* Build configuration list for PBXNativeTarget "Pods-CoachVideosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D943F496D59F217EB1A688C56D2D75FF /* Debug */,
+				EB371171B810AA7D11E08F8A373F3FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A65704E9CFDF6E1E9E61A4B1217F72 /* Build configuration list for PBXNativeTarget "CVCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F16EE7E176A82775C3A5B28AC72E8D /* Debug */,
+				B20756265A0913A4181337132DEADD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

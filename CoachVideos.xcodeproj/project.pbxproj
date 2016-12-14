@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BE8ED16F4A3D576B17ABBDA /* Pods_CoachVideos_CoachVideosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CB3D59E051A7A6AE7B7D3C /* Pods_CoachVideos_CoachVideosUITests.framework */; };
+		68DF31DAF6B225EBBE41DEEA /* Pods_CoachVideosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40C0E72BF809779561B095A /* Pods_CoachVideosUITests.framework */; };
+		693F3ADC1E00E4260084016F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693F3ADA1E00E4260084016F /* Main.storyboard */; };
+		693F3ADF1E00ED4A0084016F /* AllAthletesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693F3ADE1E00ED4A0084016F /* AllAthletesViewController.swift */; };
+		693F3AE11E00F49A0084016F /* AllAthletesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693F3AE01E00F49A0084016F /* AllAthletesNavigationController.swift */; };
+		698BA7A51E01D39600BB02FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 698BA7A41E01D39600BB02FE /* GoogleService-Info.plist */; };
+		69B3B3211DEA64330039966B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3201DEA64330039966B /* AppDelegate.swift */; };
+		69B3B3231DEA64330039966B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3221DEA64330039966B /* BaseViewController.swift */; };
+		69B3B3291DEA64330039966B /* CoachVideos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3271DEA64330039966B /* CoachVideos.xcdatamodeld */; };
+		69B3B32B1DEA64330039966B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B3B32A1DEA64330039966B /* Assets.xcassets */; };
+		69B3B32E1DEA64330039966B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B3B32C1DEA64330039966B /* LaunchScreen.storyboard */; };
+		69B3B3391DEA64330039966B /* CoachVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3381DEA64330039966B /* CoachVideosTests.swift */; };
+		69B3B3441DEA64330039966B /* CoachVideosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3431DEA64330039966B /* CoachVideosUITests.swift */; };
+		69B3B3521DEA65DC0039966B /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3511DEA65DC0039966B /* TabViewController.swift */; };
+		69B3B3541DEA66980039966B /* LogNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3531DEA66980039966B /* LogNavigationController.swift */; };
+		69B3B3561DEA66FC0039966B /* VideoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3551DEA66FC0039966B /* VideoNavigationController.swift */; };
+		69B3B3581DEA67200039966B /* CommentsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3571DEA67200039966B /* CommentsNavigationController.swift */; };
+		69B3B35A1DEA78800039966B /* ViewLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3B3591DEA78800039966B /* ViewLabel.swift */; };
+		A5F9CD5A944ADAD6BC363F87 /* Pods_CoachVideosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB7CA298F9268A0D4926729 /* Pods_CoachVideosTests.framework */; };
+		B86548E3873DE2B4A3202DA8 /* Pods_CoachVideos_CoachVideosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93B4C07740DB0D176A10DFA /* Pods_CoachVideos_CoachVideosTests.framework */; };
+		BE8AA1F512BD2B21F97BE9D6 /* Pods_CoachVideos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D59FB47690E3F6BF256BD6 /* Pods_CoachVideos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B3B3351DEA64330039966B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B3B3151DEA64320039966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B3B31C1DEA64320039966B;
+			remoteInfo = CoachVideos;
+		};
+		69B3B3401DEA64330039966B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B3B3151DEA64320039966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B3B31C1DEA64320039966B;
+			remoteInfo = CoachVideos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EB7CA298F9268A0D4926729 /* Pods_CoachVideosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachVideosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B06FE5D8A997F64BF82B8C /* Pods-CoachVideosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachVideosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoachVideosUITests/Pods-CoachVideosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45CB3D59E051A7A6AE7B7D3C /* Pods_CoachVideos_CoachVideosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachVideos_CoachVideosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		578DD988FA4DD03847451DD4 /* Pods-CoachVideos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachVideos.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoachVideos/Pods-CoachVideos.release.xcconfig"; sourceTree = "<group>"; };
+		63D59FB47690E3F6BF256BD6 /* Pods_CoachVideos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachVideos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		693F3ADB1E00E4260084016F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../TDDFizzBuzz/TDDFizzBuzz/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		693F3ADE1E00ED4A0084016F /* AllAthletesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAthletesViewController.swift; sourceTree = "<group>"; };
+		693F3AE01E00F49A0084016F /* AllAthletesNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAthletesNavigationController.swift; sourceTree = "<group>"; };
+		698BA7A41E01D39600BB02FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		69B3B31D1DEA64330039966B /* CoachVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3B3201DEA64330039966B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69B3B3221DEA64330039966B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		69B3B3281DEA64330039966B /* CoachVideos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoachVideos.xcdatamodel; sourceTree = "<group>"; };
+		69B3B32A1DEA64330039966B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69B3B32D1DEA64330039966B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69B3B32F1DEA64330039966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B3B3341DEA64330039966B /* CoachVideosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoachVideosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3B3381DEA64330039966B /* CoachVideosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachVideosTests.swift; sourceTree = "<group>"; };
+		69B3B33A1DEA64330039966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B3B33F1DEA64330039966B /* CoachVideosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoachVideosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3B3431DEA64330039966B /* CoachVideosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachVideosUITests.swift; sourceTree = "<group>"; };
+		69B3B3451DEA64330039966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B3B3511DEA65DC0039966B /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		69B3B3531DEA66980039966B /* LogNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogNavigationController.swift; sourceTree = "<group>"; };
+		69B3B3551DEA66FC0039966B /* VideoNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoNavigationController.swift; sourceTree = "<group>"; };
+		69B3B3571DEA67200039966B /* CommentsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsNavigationController.swift; sourceTree = "<group>"; };
+		69B3B3591DEA78800039966B /* ViewLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLabel.swift; sourceTree = "<group>"; };
+		71EF37B55850134D37793761 /* Pods-CoachVideosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachVideosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoachVideosTests/Pods-CoachVideosTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B9E6BF332A4FBF4CA8A56C9 /* Pods-CoachVideosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachVideosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoachVideosTests/Pods-CoachVideosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8F9474AC147CEAA08E7FFE /* Pods-CoachVideosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachVideosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoachVideosUITests/Pods-CoachVideosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B93B4C07740DB0D176A10DFA /* Pods_CoachVideos_CoachVideosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachVideos_CoachVideosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35D139AA75CBAA748F74AF3 /* Pods-CoachVideos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachVideos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoachVideos/Pods-CoachVideos.debug.xcconfig"; sourceTree = "<group>"; };
+		D40C0E72BF809779561B095A /* Pods_CoachVideosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachVideosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69B3B31A1DEA64320039966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8AA1F512BD2B21F97BE9D6 /* Pods_CoachVideos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B3B3311DEA64330039966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F9CD5A944ADAD6BC363F87 /* Pods_CoachVideosTests.framework in Frameworks */,
+				B86548E3873DE2B4A3202DA8 /* Pods_CoachVideos_CoachVideosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B3B33C1DEA64330039966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DF31DAF6B225EBBE41DEEA /* Pods_CoachVideosUITests.framework in Frameworks */,
+				4BE8ED16F4A3D576B17ABBDA /* Pods_CoachVideos_CoachVideosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0058F2E56BA1C581219C8380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D59FB47690E3F6BF256BD6 /* Pods_CoachVideos.framework */,
+				2EB7CA298F9268A0D4926729 /* Pods_CoachVideosTests.framework */,
+				D40C0E72BF809779561B095A /* Pods_CoachVideosUITests.framework */,
+				B93B4C07740DB0D176A10DFA /* Pods_CoachVideos_CoachVideosTests.framework */,
+				45CB3D59E051A7A6AE7B7D3C /* Pods_CoachVideos_CoachVideosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		693F3ADD1E00E4500084016F /* StoryboardStuff */ = {
+			isa = PBXGroup;
+			children = (
+				693F3ADA1E00E4260084016F /* Main.storyboard */,
+				69B3B32C1DEA64330039966B /* LaunchScreen.storyboard */,
+			);
+			name = StoryboardStuff;
+			sourceTree = "<group>";
+		};
+		69B3B3141DEA64320039966B = {
+			isa = PBXGroup;
+			children = (
+				69B3B31F1DEA64330039966B /* CoachVideos */,
+				69B3B3371DEA64330039966B /* CoachVideosTests */,
+				69B3B3421DEA64330039966B /* CoachVideosUITests */,
+				69B3B31E1DEA64330039966B /* Products */,
+				0058F2E56BA1C581219C8380 /* Frameworks */,
+				FCBB51A28F185461575F6566 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		69B3B31E1DEA64330039966B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B3B31D1DEA64330039966B /* CoachVideos.app */,
+				69B3B3341DEA64330039966B /* CoachVideosTests.xctest */,
+				69B3B33F1DEA64330039966B /* CoachVideosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69B3B31F1DEA64330039966B /* CoachVideos */ = {
+			isa = PBXGroup;
+			children = (
+				69B3B32A1DEA64330039966B /* Assets.xcassets */,
+				69B3B3271DEA64330039966B /* CoachVideos.xcdatamodeld */,
+				69B3B32F1DEA64330039966B /* Info.plist */,
+				693F3ADD1E00E4500084016F /* StoryboardStuff */,
+				69B3B3201DEA64330039966B /* AppDelegate.swift */,
+				69B3B3221DEA64330039966B /* BaseViewController.swift */,
+				69B3B3511DEA65DC0039966B /* TabViewController.swift */,
+				69B3B3531DEA66980039966B /* LogNavigationController.swift */,
+				69B3B3551DEA66FC0039966B /* VideoNavigationController.swift */,
+				69B3B3571DEA67200039966B /* CommentsNavigationController.swift */,
+				69B3B3591DEA78800039966B /* ViewLabel.swift */,
+				693F3ADE1E00ED4A0084016F /* AllAthletesViewController.swift */,
+				693F3AE01E00F49A0084016F /* AllAthletesNavigationController.swift */,
+				698BA7A41E01D39600BB02FE /* GoogleService-Info.plist */,
+			);
+			path = CoachVideos;
+			sourceTree = "<group>";
+		};
+		69B3B3371DEA64330039966B /* CoachVideosTests */ = {
+			isa = PBXGroup;
+			children = (
+				69B3B3381DEA64330039966B /* CoachVideosTests.swift */,
+				69B3B33A1DEA64330039966B /* Info.plist */,
+			);
+			path = CoachVideosTests;
+			sourceTree = "<group>";
+		};
+		69B3B3421DEA64330039966B /* CoachVideosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69B3B3431DEA64330039966B /* CoachVideosUITests.swift */,
+				69B3B3451DEA64330039966B /* Info.plist */,
+			);
+			path = CoachVideosUITests;
+			sourceTree = "<group>";
+		};
+		FCBB51A28F185461575F6566 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C35D139AA75CBAA748F74AF3 /* Pods-CoachVideos.debug.xcconfig */,
+				578DD988FA4DD03847451DD4 /* Pods-CoachVideos.release.xcconfig */,
+				7B9E6BF332A4FBF4CA8A56C9 /* Pods-CoachVideosTests.debug.xcconfig */,
+				71EF37B55850134D37793761 /* Pods-CoachVideosTests.release.xcconfig */,
+				8A8F9474AC147CEAA08E7FFE /* Pods-CoachVideosUITests.debug.xcconfig */,
+				43B06FE5D8A997F64BF82B8C /* Pods-CoachVideosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B3B31C1DEA64320039966B /* CoachVideos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B3B3481DEA64330039966B /* Build configuration list for PBXNativeTarget "CoachVideos" */;
+			buildPhases = (
+				491F716230F34AA234F87CA1 /* [CP] Check Pods Manifest.lock */,
+				69B3B3191DEA64320039966B /* Sources */,
+				69B3B31A1DEA64320039966B /* Frameworks */,
+				69B3B31B1DEA64320039966B /* Resources */,
+				B55A6B55F5E5407FE2CDC8A6 /* [CP] Embed Pods Frameworks */,
+				73A93C4146215EF5B7A234D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoachVideos;
+			productName = CoachVideos;
+			productReference = 69B3B31D1DEA64330039966B /* CoachVideos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69B3B3331DEA64330039966B /* CoachVideosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B3B34B1DEA64330039966B /* Build configuration list for PBXNativeTarget "CoachVideosTests" */;
+			buildPhases = (
+				CCFDAD939C62364FC297652A /* [CP] Check Pods Manifest.lock */,
+				69B3B3301DEA64330039966B /* Sources */,
+				69B3B3311DEA64330039966B /* Frameworks */,
+				69B3B3321DEA64330039966B /* Resources */,
+				C35DA40D8A121256B3EDA732 /* [CP] Embed Pods Frameworks */,
+				3FD0323C1B007ECEBA625E38 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B3B3361DEA64330039966B /* PBXTargetDependency */,
+			);
+			name = CoachVideosTests;
+			productName = CoachVideosTests;
+			productReference = 69B3B3341DEA64330039966B /* CoachVideosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69B3B33E1DEA64330039966B /* CoachVideosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B3B34E1DEA64330039966B /* Build configuration list for PBXNativeTarget "CoachVideosUITests" */;
+			buildPhases = (
+				3FE84CAF2DB03F6D08999EAB /* [CP] Check Pods Manifest.lock */,
+				69B3B33B1DEA64330039966B /* Sources */,
+				69B3B33C1DEA64330039966B /* Frameworks */,
+				69B3B33D1DEA64330039966B /* Resources */,
+				612E3E7D64F799538C461E41 /* [CP] Embed Pods Frameworks */,
+				E3536044F0FCFA0503199D4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B3B3411DEA64330039966B /* PBXTargetDependency */,
+			);
+			name = CoachVideosUITests;
+			productName = CoachVideosUITests;
+			productReference = 69B3B33F1DEA64330039966B /* CoachVideosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B3B3151DEA64320039966B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Chelsea Green";
+				TargetAttributes = {
+					69B3B31C1DEA64320039966B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					69B3B3331DEA64330039966B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69B3B31C1DEA64320039966B;
+					};
+					69B3B33E1DEA64330039966B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69B3B31C1DEA64320039966B;
+					};
+				};
+			};
+			buildConfigurationList = 69B3B3181DEA64320039966B /* Build configuration list for PBXProject "CoachVideos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69B3B3141DEA64320039966B;
+			productRefGroup = 69B3B31E1DEA64330039966B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B3B31C1DEA64320039966B /* CoachVideos */,
+				69B3B3331DEA64330039966B /* CoachVideosTests */,
+				69B3B33E1DEA64330039966B /* CoachVideosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B3B31B1DEA64320039966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693F3ADC1E00E4260084016F /* Main.storyboard in Resources */,
+				698BA7A51E01D39600BB02FE /* GoogleService-Info.plist in Resources */,
+				69B3B32E1DEA64330039966B /* LaunchScreen.storyboard in Resources */,
+				69B3B32B1DEA64330039966B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B3B3321DEA64330039966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B3B33D1DEA64330039966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FD0323C1B007ECEBA625E38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoachVideosTests/Pods-CoachVideosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FE84CAF2DB03F6D08999EAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		491F716230F34AA234F87CA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		612E3E7D64F799538C461E41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoachVideosUITests/Pods-CoachVideosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A93C4146215EF5B7A234D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoachVideos/Pods-CoachVideos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55A6B55F5E5407FE2CDC8A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoachVideos/Pods-CoachVideos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35DA40D8A121256B3EDA732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoachVideosTests/Pods-CoachVideosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFDAD939C62364FC297652A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3536044F0FCFA0503199D4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoachVideosUITests/Pods-CoachVideosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69B3B3191DEA64320039966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693F3ADF1E00ED4A0084016F /* AllAthletesViewController.swift in Sources */,
+				69B3B3541DEA66980039966B /* LogNavigationController.swift in Sources */,
+				69B3B3581DEA67200039966B /* CommentsNavigationController.swift in Sources */,
+				693F3AE11E00F49A0084016F /* AllAthletesNavigationController.swift in Sources */,
+				69B3B3231DEA64330039966B /* BaseViewController.swift in Sources */,
+				69B3B35A1DEA78800039966B /* ViewLabel.swift in Sources */,
+				69B3B3521DEA65DC0039966B /* TabViewController.swift in Sources */,
+				69B3B3211DEA64330039966B /* AppDelegate.swift in Sources */,
+				69B3B3291DEA64330039966B /* CoachVideos.xcdatamodeld in Sources */,
+				69B3B3561DEA66FC0039966B /* VideoNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B3B3301DEA64330039966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B3B3391DEA64330039966B /* CoachVideosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B3B33B1DEA64330039966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B3B3441DEA64330039966B /* CoachVideosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B3B3361DEA64330039966B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B3B31C1DEA64320039966B /* CoachVideos */;
+			targetProxy = 69B3B3351DEA64330039966B /* PBXContainerItemProxy */;
+		};
+		69B3B3411DEA64330039966B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B3B31C1DEA64320039966B /* CoachVideos */;
+			targetProxy = 69B3B3401DEA64330039966B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		693F3ADA1E00E4260084016F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693F3ADB1E00E4260084016F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69B3B32C1DEA64330039966B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B3B32D1DEA64330039966B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B3B3461DEA64330039966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69B3B3471DEA64330039966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B3B3491DEA64330039966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35D139AA75CBAA748F74AF3 /* Pods-CoachVideos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoachVideos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.CoachVideos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69B3B34A1DEA64330039966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578DD988FA4DD03847451DD4 /* Pods-CoachVideos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoachVideos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.CoachVideos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		69B3B34C1DEA64330039966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9E6BF332A4FBF4CA8A56C9 /* Pods-CoachVideosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoachVideosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.CoachVideosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoachVideos.app/CoachVideos";
+			};
+			name = Debug;
+		};
+		69B3B34D1DEA64330039966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71EF37B55850134D37793761 /* Pods-CoachVideosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoachVideosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.CoachVideosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoachVideos.app/CoachVideos";
+			};
+			name = Release;
+		};
+		69B3B34F1DEA64330039966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8F9474AC147CEAA08E7FFE /* Pods-CoachVideosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CoachVideosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.CoachVideosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoachVideos;
+			};
+			name = Debug;
+		};
+		69B3B3501DEA64330039966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B06FE5D8A997F64BF82B8C /* Pods-CoachVideosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CoachVideosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.CoachVideosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoachVideos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B3B3181DEA64320039966B /* Build configuration list for PBXProject "CoachVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B3B3461DEA64330039966B /* Debug */,
+				69B3B3471DEA64330039966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B3B3481DEA64330039966B /* Build configuration list for PBXNativeTarget "CoachVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B3B3491DEA64330039966B /* Debug */,
+				69B3B34A1DEA64330039966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B3B34B1DEA64330039966B /* Build configuration list for PBXNativeTarget "CoachVideosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B3B34C1DEA64330039966B /* Debug */,
+				69B3B34D1DEA64330039966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B3B34E1DEA64330039966B /* Build configuration list for PBXNativeTarget "CoachVideosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B3B34F1DEA64330039966B /* Debug */,
+				69B3B3501DEA64330039966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69B3B3271DEA64330039966B /* CoachVideos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69B3B3281DEA64330039966B /* CoachVideos.xcdatamodel */,
+			);
+			currentVersion = 69B3B3281DEA64330039966B /* CoachVideos.xcdatamodel */;
+			path = CoachVideos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69B3B3151DEA64320039966B /* Project object */;
+}
